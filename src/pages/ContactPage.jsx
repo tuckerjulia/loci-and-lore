@@ -23,9 +23,9 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const subject = encodeURIComponent(`Casa Karoo enquiry from ${form.firstName} ${form.lastName}`)
+    const subject = encodeURIComponent(`Loci & Lore enquiry from ${form.firstName} ${form.lastName}`)
     const body = encodeURIComponent(
-      `Hi Casa Karoo,\n\nMy name is ${form.firstName} ${form.lastName} and my email is ${form.email}.\nCity / Neighbourhood: ${form.location}\nHow they heard about us: ${form.referral.join(', ')}\n\n${form.message}`
+      `Hi Loci & Lore,\n\nMy name is ${form.firstName} ${form.lastName} and my email is ${form.email}.\nCity / Neighbourhood: ${form.location}\nHow they heard about us: ${form.referral.join(', ')}\n\n${form.message}`
     )
     window.location.href = `mailto:juliaktucker@gmail.com?subject=${subject}&body=${body}`
   }
@@ -65,21 +65,21 @@ export default function ContactPage() {
               <div className="flex items-center gap-3 mt-5">
                 <MdPhone size={22} style={{ color: '#8A9EBA' }} />
                 <a
-                  href="tel:+12063960583"
+                  href="tel:+447533936649"
                   className="text-sm text-stone/50 hover:text-stone transition-colors duration-200"
                 >
-                  +1 (206) 396-0583
+                  +44 7533 936649
                 </a>
               </div>
               <div className="flex items-center gap-3 mt-5">
                 <SiInstagram size={22} style={{ color: '#8A9EBA' }} />
                 <a
-                  href="https://www.instagram.com/casakaroo/"
+                  href="https://www.instagram.com/lociandlore/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-stone/50 hover:text-stone transition-colors duration-200"
                 >
-                  @casakaroo
+                  @lociandlore
                 </a>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function ContactPage() {
                 <input type="text" name="location" placeholder="Where are you located?" value={form.location} onChange={handleChange} className={inputClass} />
               </div>
               <div>
-                <label className={labelClass}>How did you hear about Casa Karoo?</label>
+                <label className={labelClass}>How did you hear about Loci & Lore?</label>
                 <div className="grid grid-cols-2 gap-2 mt-1">
                   {referralOptions.map(option => {
                     const checked = form.referral.includes(option)

@@ -34,7 +34,7 @@ export default function Nav() {
           to="/"
           className="text-sm font-light tracking-widest uppercase transition-colors duration-200 text-stone/60 hover:text-stone"
         >
-          Casa Karoo
+          Loci & Lore
         </Link>
 
         {/* Menu toggle — pinned to far right */}

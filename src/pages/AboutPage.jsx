@@ -16,7 +16,7 @@ export default function AboutPage() {
               About Us
             </h1>
             <p className="mt-3 text-xl md:text-2xl font-light text-stone/60" style={{ fontFamily: 'var(--font-display)', fontStyle: 'italic' }}>
-              Rooted in place, guided by intention.
+              Rooted in place, guided by the stories it carries.
             </p>
           </div>
 
@@ -70,12 +70,12 @@ export default function AboutPage() {
             <div className="space-y-3">
               <p className="text-xs tracking-[0.2em] uppercase text-sage font-semibold pt-1">Who We Are</p>
               <div className="w-full aspect-[5/4] md:aspect-[3/4] overflow-hidden rounded-sm">
-                <img src="/who-we-are.jpg" alt="Rooidam Farm Stall, Karoo" className="w-full h-full object-cover object-center" />
+                <img src="/who-we-are.jpg" alt="A place along the way" className="w-full h-full object-cover object-center" />
               </div>
             </div>
             <div className="space-y-4">
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                Casa Karoo is an interior design studio creating soulful, personalised spaces for short-term rentals, hospitality, and residential interiors. We bring the feeling of a thoughtfully designed guest room to life. Spaces that welcome people in and make them feel at home.
+                Loci & Lore is an interior design studio creating soulful, personalised spaces for short-term rentals, hospitality, and residential interiors. We bring the feeling of a thoughtfully designed guest room to life. Spaces that welcome people in and make them feel at home.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
                 Rooted in human-centred design and placemaking, we create interiors that respond to both the people who use them and the places they belong to.
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 We believe great design is felt as much as it is seen. Through careful consideration of layout, light, flow, colour and materiality, we create spaces that feel intuitive, grounded, and connected. Designed for rest, connection, and everyday living.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                Every Casa Karoo project is crafted to be beautiful, functional, and enduring. Spaces that photograph beautifully, live effortlessly, and leave a lasting impression.
+                Every Loci & Lore project is crafted to be beautiful, functional, and enduring. Spaces that photograph beautifully, live effortlessly, and leave a lasting impression.
               </p>
             </div>
           </div>
@@ -94,24 +94,24 @@ export default function AboutPage() {
             <div className="space-y-3">
               <p className="text-xs tracking-[0.2em] uppercase text-sage font-semibold pt-1">Our Story</p>
               <div className="w-full aspect-[5/4] md:aspect-auto overflow-hidden rounded-sm">
-                <img src="/karoo-road.jpg" alt="The Karoo road" className="w-full h-full md:h-auto object-cover object-center md:object-contain" />
+                <img src="/karoo-road.jpg" alt="The open road" className="w-full h-full md:h-auto object-cover object-center md:object-contain" />
               </div>
             </div>
             <div className="space-y-4">
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                Casa Karoo was born from a love of travel, thoughtful spaces, and the landscapes that shape how we experience place.
+                Loci & Lore was born from a love of travel, thoughtful spaces, and the landscapes that shape how we experience place.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                The name reflects the heart of our brand: "Casa," meaning home, and "Karoo," a vast region of South Africa known for its raw beauty, quiet landscapes, and timeless character. Together, Casa Karoo represents the idea of creating homes away from home. Spaces that welcome, restore, and feel deeply connected to their surroundings.
+                The name reflects the heart of our brand: "Loci," Latin for place, and "Lore," the stories a place carries. Together, Loci & Lore represents the idea that every space holds a story worth telling. Interiors that welcome, restore, and feel deeply connected to their surroundings.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                Inspired by the Karoo's earthy palette, natural textures, open skies, and sense of stillness, we create interiors that feel grounded, intentional, and full of character.
+                Inspired by the landscapes, cultures, and everyday rituals we encounter through travel, we create interiors that feel grounded, intentional, and full of character.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
                 Through travel, we discovered that the spaces we remember most are not always the grandest, but the ones that make us feel something. The guest room that feels thoughtfully prepared, the home that reflects its surroundings, and the details that transform a stay into an experience.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                Casa Karoo exists to create spaces with a story. Interiors that balance beauty and function, celebrate their context, and allow people to feel a sense of belonging wherever they are.
+                Loci & Lore exists to create spaces with a story. Interiors that balance beauty and function, celebrate their context, and allow people to feel a sense of belonging wherever they are.
               </p>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 With experience across both design and construction, I bring a balance of creativity and practicality to every project, creating spaces that are timeless, functional, and deeply personal.
               </p>
               <p className="text-xs md:text-sm font-light leading-relaxed text-stone/80 text-justify">
-                At Casa Karoo, every project is an opportunity to create something meaningful. A space with character, purpose, and a story to tell.
+                At Loci & Lore, every project is an opportunity to create something meaningful. A space with character, purpose, and a story to tell.
               </p>
             </div>
           </div>

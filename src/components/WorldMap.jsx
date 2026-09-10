@@ -9,7 +9,7 @@ function toPercent(lon, lat) {
   }
 }
 
-// Casa Karoo palette
+// Loci & Lore palette
 const P = {
   stone:     '#3D2B1A',
   earth:     '#8C6E52',
@@ -64,7 +64,7 @@ export default function WorldMap() {
     <div className="w-full px-6 md:px-16 pt-2 pb-6 max-w-5xl mx-auto flex flex-col items-center">
       <div className="max-w-3xl w-full text-center">
         <p className="text-xs tracking-[0.2em] uppercase text-sage font-semibold mb-2">
-          your worldwide casa
+          your worldwide retreat
         </p>
         <p className="text-sm font-light text-stone/70 mb-6 text-left md:text-center">
           Let's collab on how we can make your listing stand out.

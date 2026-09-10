@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-Casa Karoo — personal portfolio website for Julia Tucker, Interior Designer. A clean, editorial site showcasing luxury hospitality and residential projects, professional background, and contact details. Built end-to-end using Claude Code with no manual coding.
+Loci & Lore — personal portfolio website for Julia Tucker, Interior Designer. A clean, editorial site showcasing luxury hospitality and residential projects, professional background, and contact details. Built end-to-end using Claude Code with no manual coding.
 
 ## Tech Stack
 - React 19 + Vite
