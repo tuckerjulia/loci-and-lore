@@ -30,6 +30,11 @@ export default function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50" style={{ backgroundColor: '#F5F0E8' }}>
       <nav className="relative h-14 flex items-center justify-center">
+        {/* Logo mark — pinned to far left */}
+        <Link to="/" aria-label="Loci & Lore home" className="absolute left-4 block w-10 h-10">
+          <img src="/logo.png" alt="" className="w-full h-full object-contain" />
+        </Link>
+
         <Link
           to="/"
           className="text-sm font-light tracking-widest uppercase transition-colors duration-200 text-stone/60 hover:text-stone"
